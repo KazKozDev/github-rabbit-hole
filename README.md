@@ -20,7 +20,7 @@
 | Research | Full investigation, claim verification, direct quotations, caveats, and references | [`docs/research-report.en.md`](./docs/research-report.en.md) |
 | Theory | Shorter explanation of what README signals actually mean and why they matter | [`docs/readme-signals.en.md`](./docs/readme-signals.en.md) |
 | Practice | What to show in a demo video and how to present the project clearly | [`docs/video-guide.en.md`](./docs/video-guide.en.md) |
-| README workflow | Portable spec for an agent that inspects a repo and writes a concise evidence-backed README | [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) |
+| Coding LLM agent skill | Portable skill for a coding LLM agent that inspects a repo and writes a concise evidence-backed README | [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) |
 
 ## Core Idea
 
@@ -58,12 +58,12 @@ These three visuals summarize the argument:
 |---|---|
 | [`docs/readme-signals.en.md`](./docs/readme-signals.en.md) | Short practical README guide |
 | [`docs/video-guide.en.md`](./docs/video-guide.en.md) | Practical guide for short project demos |
-| [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) | Portable README-writing agent workflow |
-| [`docs/skill-video-demo.en.md`](./docs/skill-video-demo.en.md) | Portable demo-video agent workflow |
+| [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) | Skill for coding LLM agents that write README files from repository evidence |
+| [`docs/skill-video-demo.en.md`](./docs/skill-video-demo.en.md) | Skill for coding LLM agents that produce short demo-video workflows |
 | [`docs/sources.en.md`](./docs/sources.en.md) | Source index with public links and preserved source names |
 
 ## Suggested Path
 
 1. Read the [research report](./docs/research-report.en.md) if you want the evidence.
 2. Read the [theory guide](./docs/readme-signals.en.md) if you want the compressed model.
-3. Use the [README writer skill](./docs/skill-readme-writer.en.md) if you want execution.
+3. Use the [README writer skill](./docs/skill-readme-writer.en.md) if you want a coding LLM agent workflow you can reuse.

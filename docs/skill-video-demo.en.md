@@ -1,6 +1,6 @@
-# Agent Skill: Demo Video Producer
+# Agent Skill for Coding LLM Agents: Demo Video Producer
 
-This is a portable GitHub-friendly version of the demo-video workflow used for agent-assisted project walkthroughs.
+This is a portable GitHub-friendly version of a skill intended for coding LLM agents that prepare project walkthrough assets.
 
 Its job is to help an agent produce a short project demo that shows the result first and explains the project with minimal friction.
 

@@ -1,6 +1,6 @@
-# Agent Skill: README Writer
+# Agent Skill for Coding LLM Agents: README Writer
 
-This is a portable GitHub-friendly version of the README-writing agent skill used in the workflow behind this repository.
+This is a portable GitHub-friendly version of a skill intended for coding LLM agents.
 
 Its purpose is simple:
 
