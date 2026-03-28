@@ -1,13 +1,33 @@
-# github-rabbit-hole
+<p align="center">
+  <img src="./assets/readme-hero.png" alt="README hero banner" width="100%" />
+</p>
 
-![Type](https://img.shields.io/badge/type-research%20archive-1f6f78?style=flat-square)
-![Focus](https://img.shields.io/badge/focus-GitHub%20signals-2d8a94?style=flat-square)
-![Format](https://img.shields.io/badge/format-guides%20%2B%20agent%20skills-6f7d8c?style=flat-square)
-![Language](https://img.shields.io/badge/language-English-4f5d75?style=flat-square)
+<h1 align="center">github-rabbit-hole</h1>
 
-Research notes, practical guides, and portable agent skills for making GitHub projects look real, readable, and worth more attention.
+<p align="center">
+  Research notes, practical guides, and portable agent skills for making GitHub projects look real, readable, and worth more attention.
+</p>
 
-Most GitHub “best practices” are not universal standards. They are compressed signals under time pressure.
+<p align="center">
+  <strong>Most GitHub “best practices” are not universal standards.</strong><br />
+  They are compressed signals under time pressure.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/type-research%20archive-1f6f78?style=flat-square" alt="Type" />
+  <img src="https://img.shields.io/badge/focus-GitHub%20signals-2d8a94?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/format-guides%20%2B%20agent%20skills-6f7d8c?style=flat-square" alt="Format" />
+  <img src="https://img.shields.io/badge/language-English-4f5d75?style=flat-square" alt="Language" />
+</p>
+
+<p align="center">
+  <a href="./docs/research-report.en.md">Research report</a> •
+  <a href="./docs/index.md">Visual index</a> •
+  <a href="./docs/video-guide.en.md">Video guide</a> •
+  <a href="./docs/skill-readme-writer.en.md">README writer skill</a> •
+  <a href="./docs/skill-video-demo.en.md">Video demo skill</a> •
+  <a href="./docs/sources.en.md">Sources</a>
+</p>
 
 ![How a GitHub repository is evaluated](./assets/evaluation-funnel.png)
 
