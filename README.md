@@ -31,16 +31,26 @@ If you want to know why screenshots, tests, `.env.example`, live demos, commit q
   <tr>
     <td width="50%" valign="top">
       <h3>README</h3>
-      <p>Research, theory, and coding-agent workflow for writing stronger GitHub READMEs.</p>
+      <p>Research and theory for writing stronger GitHub READMEs.</p>
       <p><a href="./docs/research-report.en.md"><strong>Research report</strong></a></p>
       <p><a href="./docs/readme-signals.en.md"><strong>Theory guide</strong></a></p>
-      <p><a href="./docs/skill-readme-writer.en.md"><strong>Agent skill</strong></a></p>
     </td>
     <td width="50%" valign="top">
+      <h3>README Agent Skill</h3>
+      <p>Portable skill for a coding LLM agent that inspects a repository and writes a concise evidence-backed README.</p>
+      <p><a href="./docs/skill-readme-writer.en.md"><strong>Open skill</strong></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>Video</h3>
-      <p>Practical guide and coding-agent workflow for short demo videos that strengthen the project signal.</p>
+      <p>Practical guide for short demo videos that strengthen the project signal.</p>
       <p><a href="./docs/video-guide.en.md"><strong>Practical guide</strong></a></p>
-      <p><a href="./docs/skill-video-demo.en.md"><strong>Agent skill</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Video Agent Skill</h3>
+      <p>Portable skill for a coding LLM agent that structures short demo videos around proof, clarity, and result-first presentation.</p>
+      <p><a href="./docs/skill-video-demo.en.md"><strong>Open skill</strong></a></p>
     </td>
   </tr>
 </table>
