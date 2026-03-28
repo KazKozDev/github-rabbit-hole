@@ -1,28 +1,50 @@
 # Agent Skill for Coding LLM Agents: README Writer
 
-This is a portable GitHub-friendly version of a skill intended for coding LLM agents.
+This is the canonical GitHub-friendly README skill for this repository.
 
-Its purpose is simple:
+It merges the original README-writing workflow with the findings of the research report, so the skill is not only about structure, but also about signal quality, first-pass reviewer attention, and practical credibility.
+
+## Purpose
 
 Write English `README.md` files as concise project entry points grounded in repository evidence.
 
-## What the agent should optimize for
+The target is not “a nice README.”
 
-Within 10 to 20 seconds, a reader should be able to answer:
+The target is a README that helps a reviewer quickly infer:
 
-1. What does this project do?
-2. Why does it matter?
-3. How do I run or try it?
+1. what the project is,
+2. whether it is real,
+3. whether the author seems competent,
+4. and whether the project is worth more attention.
 
-The README should feel like a landing page plus technical overview, not like unstructured documentation.
+## Core framing
 
-## Core rule
+Treat the README as a screening surface.
+
+The first job of the file is not completeness. Its first job is to survive the first pass, reduce uncertainty, and justify continued attention.
+
+That means the agent should optimize for:
+
+- clarity in the first screen,
+- proof before explanation where possible,
+- strong signals over decorative details,
+- context over generic feature lists,
+- and only defensible claims.
+
+## Non-negotiable rule
 
 Never write anything that is not supported by repository evidence or explicit user input.
 
-## Input
+Do not invent:
 
-The agent should inspect the repository before writing.
+- positioning,
+- performance claims,
+- users,
+- production status,
+- trade-offs,
+- or architectural intent.
+
+## What the agent should inspect
 
 Minimum useful evidence:
 
@@ -30,18 +52,28 @@ Minimum useful evidence:
 - deployment config if present,
 - `.env.example` or setup samples,
 - test configuration,
+- CI configuration,
 - entry points,
 - major modules,
-- any existing docs that clarify purpose or setup.
+- demo assets,
+- existing docs that clarify purpose, setup, or architecture.
+
+The agent should inspect enough to answer:
+
+- what the project does,
+- why it exists,
+- whether it appears tutorial-shaped or independently developed,
+- whether it has visible proof of life,
+- whether it shows discipline in setup, testing, and configuration.
 
 ## Internal fact sheet
 
-Before writing, the agent should extract:
+Before writing, extract:
 
 - project name,
 - primary language,
 - framework or runtime,
-- one-sentence description,
+- one-sentence project description,
 - problem solved,
 - likely audience if inferable,
 - key capabilities,
@@ -53,63 +85,186 @@ Before writing, the agent should extract:
 - deployment evidence,
 - demo assets,
 - env sample,
+- evidence of real usage or iteration,
+- signals that suggest independent judgment,
 - unknowns that require explicit user input.
 
-## Writing strategy
+## Research-backed writing strategy
 
-The README should:
+### 1. Optimize for first-screen clarity
 
-- prioritize first-screen clarity,
-- avoid hype,
-- use only defensible claims,
-- keep commands real,
-- stay concise,
-- and explain why the project exists, not just what stack it uses.
+Within 10 to 20 seconds, the reader should be able to answer:
+
+1. What does this project do?
+2. Why does it exist?
+3. How do I run or try it?
+
+The first screen should do more work than the rest of the file.
+
+### 2. Prefer strong signals
+
+Strong signals include:
+
+- a clear one-sentence description,
+- a live demo, screenshot, or GIF,
+- some evidence of real users or real deployment,
+- tests and CI where relevant,
+- setup clarity,
+- `.env.example`,
+- meaningful commit history,
+- a section that shows reflection, trade-offs, or lessons learned.
+
+Weak or low-value signals include:
+
+- decorative badges,
+- generic marketing language,
+- empty feature inflation,
+- tutorial-shaped projects with no original logic,
+- README copy that sounds assembled rather than examined.
+
+### 3. Context is not optional
+
+A project should not read like:
+
+> here is a todo app
+
+It should explain:
+
+- what problem it solves,
+- why it was built,
+- what constraints mattered,
+- what was difficult,
+- and what changed through implementation.
+
+### 4. Treat clones carefully
+
+If the repository looks like a recognizable tutorial clone, the README should not try to hide that.
+
+Instead, the agent should look for evidence that replication was not the endpoint:
+
+- original logic,
+- additional features,
+- deployment,
+- real users,
+- real iteration,
+- or technical trade-offs.
+
+If no such evidence exists, the README should stay factual and avoid over-positioning the project.
+
+### 5. Use proof where it exists
+
+If the repo has a live demo, screenshot, GIF, or short video, surface it early.
+
+Visible proof reduces doubt faster than abstract explanation.
 
 ## Recommended structure
 
-1. Title + one-line description
-2. Highlights
-3. Demo or screenshot if it exists
+Use this order when the repository supports it:
+
+1. Title
+2. One-line description
+3. Demo / screenshot / GIF / live link
 4. Overview
-5. Features
-6. Architecture if the project is complex enough
-7. Setup / installation
-8. Usage
-9. Environment variables
-10. Tests
-11. Trade-offs, lessons, or what changed
+5. Problem / context
+6. Features
+7. Architecture if warranted
+8. Setup / installation
+9. Usage
+10. Environment variables
+11. Tests / CI
+12. What I learned / trade-offs / what I’d do differently
+
+## Section guidance
+
+### Title + one-line description
+
+Make it direct and literal.
+
+Bad:
+
+- “A modern platform for seamless productivity”
+
+Better:
+
+- “Browser extension for capturing and summarizing support conversations”
+
+### Demo
+
+If a live demo, screenshot, GIF, or video exists, put it early.
+
+The README should not make the reader imagine whether the project works.
+
+### Overview
+
+Keep this short.
+
+It should explain:
+
+- what the project does,
+- who it is for if inferable,
+- and why it exists.
+
+### Problem / context
+
+This is where the file can stop sounding like a tutorial wrapper.
+
+Useful context includes:
+
+- what was frustrating or missing,
+- why the project was built,
+- what constraints shaped it,
+- what kind of usage or iteration it saw.
+
+### Features
+
+List only features that map to real code, real flows, or visible outputs.
+
+Do not pad.
+
+### Setup / installation
+
+Use only real commands.
+
+If the project requires environment variables, document them clearly and point to `.env.example` if it exists.
+
+### Tests / CI
+
+If the repo contains tests or CI, surface that briefly because it is a strong signal of engineering discipline.
+
+### Reflection section
+
+Prefer one concise reflective section:
+
+- `What I Learned`
+- `Trade-offs`
+- `What I’d Do Differently`
+
+This is one of the strongest ways to signal judgment rather than assembly.
 
 ## What the agent should avoid
 
 - invented positioning,
-- unsupported performance claims,
-- decorative badges,
-- empty sections,
-- generic phrases like “modern solution” or “powerful platform,”
+- unsupported claims,
+- decorative badges as filler,
+- walls of hype,
+- generic phrases like “cutting-edge” or “powerful solution,”
+- pretending a tutorial clone is original without evidence,
 - turning the README into full documentation.
 
-## What makes the output stronger
-
-The strongest README outputs usually include:
-
-- one sentence that clearly states what the project does,
-- visible proof that it works,
-- setup clarity,
-- real commands,
-- and one small section showing reflection or engineering judgment.
-
-## Expected output standard
+## Output standard
 
 The final README should make the project feel:
 
 - real,
-- readable,
+- legible,
 - runnable,
 - and more examined than assembled.
 
+If the file succeeds, a reviewer should feel that the author understands both the project and the reader’s limited attention.
+
 ## Related files
 
-- [Full research report](./research-report.en.md)
-- [README signals short guide](./readme-signals.en.md)
-- [Demo video guide](./video-guide.en.md)
+- [Research report](./research-report.en.md)
+- [README signals guide](./readme-signals.en.md)
+- [Video guide](./video-guide.en.md)
+- [Production-ready local skill](./SKILL-readme-generator-production.md)

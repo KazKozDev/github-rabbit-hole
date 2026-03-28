@@ -315,4 +315,4 @@ If the file succeeds, a reviewer should feel that the author understands both th
 
 - [Research report](./research-report.en.md)
 - [README signals guide](./readme-signals.en.md)
-- [Research-aligned README writer notes](./skill-readme-writer-research-aligned.en.md)
+- [Canonical README skill notes](./skill-readme-writer.en.md)
