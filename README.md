@@ -29,18 +29,6 @@
   <a href="./docs/sources.en.md">Sources</a>
 </p>
 
-![How a GitHub repository is evaluated](./assets/evaluation-funnel.png)
-
-## Quick Nav
-
-- [Research report](./docs/research-report.en.md)
-- [Visual index](./docs/index.md)
-- [Video guide](./docs/video-guide.en.md)
-- [README writer skill](./docs/skill-readme-writer.en.md)
-- [Video demo skill](./docs/skill-video-demo.en.md)
-- [README signals](./docs/readme-signals.en.md)
-- [Sources](./docs/sources.en.md)
-
 ## The Landing Page
 
 | Entry point | Use it for | File |
@@ -77,23 +65,29 @@ This repository exists to do that work once and keep the result practical.
 
 These three visuals compress the core argument of the repo:
 
-### 1. Repositories are filtered before code is read
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./assets/evaluation-funnel.png" alt="Evaluation funnel" />
+      <p><strong>Repositories are filtered before code is read.</strong></p>
+      <p>Adapted from JSGuruJobs, HR Dive, and hiring-manager discussions on Reddit. Timings are illustrative.</p>
+    </td>
+    <td width="50%">
+      <img src="./assets/signal-strength.png" alt="Signal strength" />
+      <p><strong>Not every hiring signal carries the same weight.</strong></p>
+      <p>Synthesized from JSGuruJobs, OneNine, and hiring-manager discussions. Signal strength is interpretive, not quantitative.</p>
+    </td>
+  </tr>
+</table>
 
-![Evaluation funnel](./assets/evaluation-funnel.png)
+<p align="center">
+  <img src="./assets/clone-spectrum.png" alt="Clone spectrum" width="100%" />
+</p>
 
-Source: adapted from JSGuruJobs, HR Dive, and hiring-manager discussions on Reddit. Timings are illustrative.
-
-### 2. Not every hiring signal carries the same weight
-
-![Signal strength](./assets/signal-strength.png)
-
-Source: synthesized from JSGuruJobs, OneNine, and hiring-manager discussions. Signal strength is interpretive, not quantitative.
-
-### 3. The real distinction is endpoint vs. transformation
-
-![Clone spectrum](./assets/clone-spectrum.png)
-
-Source: synthesized from portfolio guidance and hiring discussions on clones, expanded projects, and real-user work. This spectrum is conceptual, not a measured scoring model.
+<p>
+  <strong>The real distinction is endpoint vs. transformation.</strong><br />
+  Synthesized from portfolio guidance and hiring discussions on clones, expanded projects, and real-user work. This spectrum is conceptual, not a measured scoring model.
+</p>
 
 ## Also Included
 
