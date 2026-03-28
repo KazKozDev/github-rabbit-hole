@@ -678,9 +678,6 @@ If those surfaces reinforce each other, the signal becomes far stronger than any
 
 ## References
 
-Direct quotations are preserved inline in the report where they materially support a claim.  
-For the explicit public-link index, see [`sources.en.md`](./sources.en.md).
-
 ### Public links verified for this repository
 
 1. JSGuruJobs, “Optimizing Your GitHub Profile for Job Hunting: A Technical Guide”  
