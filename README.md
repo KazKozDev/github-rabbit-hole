@@ -25,10 +25,20 @@ If you want to know why screenshots, tests, `.env.example`, live demos, commit q
 
 ## Start Here
 
-| Entry point | Use it for | File |
-|---|---|---|
-| Research | Full investigation, claim verification, direct quotations, caveats, and references | [`docs/research-report.en.md`](./docs/research-report.en.md) |
-| Practice | What to show in a demo video and how to present the project clearly | [`docs/video-guide.en.md`](./docs/video-guide.en.md) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Research</h3>
+      <p>Full investigation, claim verification, direct quotations, caveats, and references.</p>
+      <p><a href="./docs/research-report.en.md"><strong>Open file</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Practice</h3>
+      <p>What to show in a demo video and how to present the project clearly.</p>
+      <p><a href="./docs/video-guide.en.md"><strong>Open file</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Core Idea
 
