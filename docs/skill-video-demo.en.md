@@ -120,6 +120,6 @@ A good demo video:
 
 ## Related files
 
-- [Demo video guide](./video-demo-guide.en.md)
-- [Full research report](./github-profile-hiring-guide.en.md)
-- [README writer agent skill](./readme-writer-agent-skill.en.md)
+- [Demo video guide](./video-guide.en.md)
+- [Full research report](./research-report.en.md)
+- [README writer agent skill](./skill-readme-writer.en.md)

@@ -158,5 +158,5 @@ Weak demo patterns:
 
 ## Read next
 
-- [Full research report](./github-profile-hiring-guide.en.md)
-- [README signals short guide](./readme-signals-short-guide.en.md)
+- [Full research report](./research-report.en.md)
+- [README signals short guide](./readme-signals.en.md)

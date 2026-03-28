@@ -1,60 +1,31 @@
 # github-rabbit-hole
 
+![Type](https://img.shields.io/badge/type-research%20archive-1f6f78?style=flat-square)
+![Focus](https://img.shields.io/badge/focus-GitHub%20signals-2d8a94?style=flat-square)
+![Format](https://img.shields.io/badge/format-guides%20%2B%20agent%20skills-6f7d8c?style=flat-square)
+![Language](https://img.shields.io/badge/language-English-4f5d75?style=flat-square)
+
 Research notes, practical guides, and portable agent skills for making GitHub projects look real, readable, and worth more attention.
 
-This repository is organized as a small landing page around four entry points:
+Most GitHub “best practices” are not universal standards. They are compressed signals under time pressure.
 
-1. the full research report,
-2. the demo-video guide,
-3. the README-writing agent skill,
-4. the video-production agent skill.
+## Quick Nav
 
-## Start here
+- [Research report](./docs/research-report.en.md)
+- [Video guide](./docs/video-guide.en.md)
+- [README writer skill](./docs/skill-readme-writer.en.md)
+- [Video demo skill](./docs/skill-video-demo.en.md)
+- [README signals](./docs/readme-signals.en.md)
+- [Sources](./docs/sources.en.md)
 
-### 1. Research report
+## The Landing Page
 
-[`docs/github-profile-hiring-guide.en.md`](./docs/github-profile-hiring-guide.en.md)
-
-Use this if you want the full investigation:
-
-- claim verification,
-- direct quotations,
-- source-backed caveats,
-- practical implementation steps,
-- final checklists,
-- and a references section linked to the source index.
-
-### 2. Demo video guide
-
-[`docs/video-demo-guide.en.md`](./docs/video-demo-guide.en.md)
-
-Use this if you want the practical answer to:
-
-- what a project video should show,
-- what to show first,
-- how long it should be,
-- and how to record it without wasting attention.
-
-### 3. README writer agent skill
-
-[`docs/readme-writer-agent-skill.en.md`](./docs/readme-writer-agent-skill.en.md)
-
-Use this if you want an agent to:
-
-- inspect a repository,
-- extract only defensible facts,
-- and write a concise English README that behaves like a landing page, not a dump of documentation.
-
-### 4. Demo video producer agent skill
-
-[`docs/video-demo-agent-skill.en.md`](./docs/video-demo-agent-skill.en.md)
-
-Use this if you want an agent to:
-
-- choose the right project flow,
-- collect the right assets,
-- lead with the result,
-- and produce a short walkthrough that makes the project feel real.
+| Entry point | Use it for | File |
+|---|---|---|
+| Research report | Full investigation, claim verification, direct quotations, caveats, and checklists | [`docs/research-report.en.md`](./docs/research-report.en.md) |
+| Video guide | What a project video should show, what to show first, and how to record it | [`docs/video-guide.en.md`](./docs/video-guide.en.md) |
+| README writer skill | Portable spec for an agent that inspects a repo and writes a concise evidence-backed README | [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) |
+| Video demo skill | Portable spec for an agent that assembles short project walkthroughs with the result first | [`docs/skill-video-demo.en.md`](./docs/skill-video-demo.en.md) |
 
 ## Why this repo exists
 
@@ -66,43 +37,35 @@ There is a lot of GitHub portfolio advice online, but much of it is repeated as 
 - write a blog,
 - make your profile look professional.
 
-Some of that advice is useful. Some of it is overstated. Very little of it is traced carefully back to source material and then turned into something practical.
+Some of that advice is useful. Some of it is overstated. Very little of it is traced carefully back to source material and then turned into something reusable.
 
-This repository exists to do that work once and keep the result reusable.
+This repository exists to do that work once and keep the result practical.
 
-## Core idea
+## What you will find here
 
-Most GitHub “best practices” are not universal standards.
+- source-backed notes on how GitHub repos are evaluated in hiring
+- README guidance grounded in reviewer attention and credibility signals
+- a practical guide for short demo videos
+- portable agent-skill specs for writing READMEs and producing demo videos
+- explicit source preservation with public links and preserved quoted material
 
-They are compressed signals under time pressure.
+## Also Included
 
-That applies to:
+| File | Role |
+|---|---|
+| [`docs/readme-signals.en.md`](./docs/readme-signals.en.md) | Short practical README guide |
+| [`docs/sources.en.md`](./docs/sources.en.md) | Source index with public links and preserved source names |
 
-- README structure,
-- screenshots and demo videos,
-- tests and CI,
-- clone projects,
-- Medium articles,
-- and the way GitHub, LinkedIn, and written case studies reinforce one another.
+## Suggested Reading Order
 
-## Also included
+### If you want the reasoning
 
-- [`docs/readme-signals-short-guide.en.md`](./docs/readme-signals-short-guide.en.md)  
-  Short practical README guide
+1. [Research report](./docs/research-report.en.md)
+2. [Sources](./docs/sources.en.md)
+3. [README signals](./docs/readme-signals.en.md)
 
-- [`docs/source-index.en.md`](./docs/source-index.en.md)  
-  Source index with public links and preserved source names
+### If you want to execute
 
-## Suggested reading order
-
-If you want the full reasoning:
-
-1. [Research report](./docs/github-profile-hiring-guide.en.md)
-2. [Source index](./docs/source-index.en.md)
-3. [README signals short guide](./docs/readme-signals-short-guide.en.md)
-
-If you only want practical execution:
-
-1. [README writer agent skill](./docs/readme-writer-agent-skill.en.md)
-2. [Demo video guide](./docs/video-demo-guide.en.md)
-3. [Demo video producer agent skill](./docs/video-demo-agent-skill.en.md)
+1. [README writer skill](./docs/skill-readme-writer.en.md)
+2. [Video guide](./docs/video-guide.en.md)
+3. [Video demo skill](./docs/skill-video-demo.en.md)

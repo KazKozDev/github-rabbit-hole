@@ -71,4 +71,4 @@ If you only fix five things, fix these:
 
 ## Read next
 
-- [Full research report](./github-profile-hiring-guide.en.md)
+- [Full research report](./research-report.en.md)
