@@ -1,0 +1,4 @@
+interface:
+  display_name: "README Writer"
+  short_description: "Write stronger reviewer-facing READMEs"
+  default_prompt: "Inspect this repository and write or rewrite its README so it is evidence-based, clear on the first screen, and strong for hiring or reviewer attention."

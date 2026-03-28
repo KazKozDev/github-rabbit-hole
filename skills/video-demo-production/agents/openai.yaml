@@ -1,0 +1,4 @@
+interface:
+  display_name: "Demo Planner"
+  short_description: "Plan proof-first project demos"
+  default_prompt: "Inspect this repository and produce a short proof-first demo-video plan that shows the strongest result in the first seconds and supports the README."
