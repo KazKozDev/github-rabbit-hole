@@ -28,7 +28,6 @@ If you want to know why screenshots, tests, `.env.example`, live demos, commit q
 | Entry point | Use it for | File |
 |---|---|---|
 | Research | Full investigation, claim verification, direct quotations, caveats, and references | [`docs/research-report.en.md`](./docs/research-report.en.md) |
-| Theory | Shorter explanation of what README signals actually mean and why they matter | [`docs/readme-signals.en.md`](./docs/readme-signals.en.md) |
 | Practice | What to show in a demo video and how to present the project clearly | [`docs/video-guide.en.md`](./docs/video-guide.en.md) |
 
 ## Core Idea
