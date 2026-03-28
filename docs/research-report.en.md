@@ -19,6 +19,34 @@ Primary public sources used throughout this report:
 [Reddit: learnprogramming][3],
 and [Reddit: ExperiencedDevs][6].
 
+## Visual Frames
+
+These three visuals summarize the argument of the report before the detailed claim-by-claim analysis.
+
+### Evaluation funnel
+
+![Evaluation funnel](../assets/evaluation-funnel.png)
+
+**1. A repository is filtered before code is read.**
+
+The first job of a README is not to explain everything. Its first job is to survive the first pass, reduce uncertainty, and earn another minute of attention. That is why first-screen clarity matters more than completeness.[1][3][4]
+
+### Signal strength
+
+![Signal strength](../assets/signal-strength.png)
+
+**2. Not every README signal carries the same weight.**
+
+Some details compress much more information than others. A live demo, real deployment, clear problem statement, tests, or thoughtful trade-offs tell a reviewer how you work. Other details, like decorative badges, add much less on their own.[1][2][5]
+
+### Clone spectrum
+
+![Clone spectrum](../assets/clone-spectrum.png)
+
+**3. The real distinction is endpoint vs. transformation.**
+
+The problem with clones is usually not resemblance. The problem is stopping at replication. A project becomes stronger when it is extended, deployed, shaped by real constraints, or pushed far enough that it shows independent judgment.[2][3]
+
 ---
 
 ## Claim Verification
