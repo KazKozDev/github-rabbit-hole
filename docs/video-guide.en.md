@@ -1,162 +1,216 @@
-# Demo Video Guide: What to Show and How to Record It
+# Demo Video Guide: What to Show, What to Cut, and Why It Matters
 
-This file turns the video-related conclusions from the research into a practical format.
+This guide compresses the video-related findings from the research report into one practical document.
 
 Use it when you already have a project and need a short demo that helps a reviewer understand it quickly.
 
-## The job of the video
-
-A project video does not need to explain everything.
-
-Its first job is to remove doubt fast:
+The goal is not to explain everything. The goal is to remove doubt fast:
 
 - the project exists,
-- it runs,
+- it works,
 - it solves a real problem,
-- and the author understands what matters about it.
+- and the author knows what matters about it.
 
-## What to show first
+This matters because GitHub repositories are usually filtered before code is read. In the first pass, reviewers look for signs that a project is real, legible, and worth more time. A short demo can help do that if it shows proof quickly.[1][2]
 
-Show the result first.
+## The main rule
 
-That means:
+Lead with the result.
 
-1. Put the working product on screen immediately.
-2. Do not spend the opening seconds on your face, logo, folder tree, or setup terminal.
-3. Let the reviewer see the thing working before you explain why it matters.
+The research trail behind this repo repeatedly points in the same direction:
+
+- the first 3 seconds are critical for retention,
+- visible proof up front reduces doubt,
+- and “proof-first” hooks are stronger than long setup sequences.[1][2]
+
+One of the strongest formulations preserved from the research trail is this:
+
+> “The proof-first hook leads with evidence, results, or credentials before explaining what the video is about. This formula works because it establishes authority and credibility immediately.”
+
+The exact “58% lift” claim that appeared in one secondary source was not treated as cleanly verified from a primary source, but the broader principle still holds: if a viewer does not see the result early, the chances of losing attention rise sharply.[1]
+
+## Recommended length
+
+For most portfolio projects, keep the demo around 20 to 25 seconds.[1]
+
+That is usually enough to show:
+
+- the result,
+- one-line context,
+- one or two meaningful actions,
+- and the result again.
+
+If the project is more complex, extend carefully. If it is simple, do not pad it.
 
 ## Recommended structure
 
-For most portfolio projects, keep the demo around 20 to 30 seconds.
+### 1. Result first: 0–3 seconds
 
-### 1. Result first
+Show the project already working.
 
-First 3 to 5 seconds:
+The viewer should immediately see the output, not the setup.
 
-- show the app already running,
-- show the main action,
-- make the output visible.
+Good openings:
 
-Example:
+- search already returning results,
+- form submission completing successfully,
+- chart updating,
+- workflow finishing,
+- generated output appearing on screen.
 
-- search works,
-- form submits,
-- chart updates,
-- workflow completes,
-- generated result appears.
+Avoid opening with:
 
-### 2. One-line context
+- logo animation,
+- terminal setup,
+- editor tabs,
+- folder structure,
+- talking head,
+- browser tabs that are not the product.
 
-Next 3 to 5 seconds:
+### 2. One-line context: 3–5 seconds
 
-- say what the project does,
+Add one sentence that explains:
+
+- what the project does,
 - and what problem it solves.
-
-Keep it to one sentence.
 
 Example:
 
 > A lightweight budgeting app that helps freelancers track cash flow by client and month.
 
-### 3. Core interaction
+The sentence should orient the viewer, not oversell the project.
 
-Next 10 to 15 seconds:
+### 3. Core interaction: 5–20 seconds
 
-- show the main user flow,
-- highlight one or two features only,
-- keep cursor movement clean,
-- avoid showing everything.
+Show one clear flow.
 
-Focus on:
+That usually means:
 
-- the main task,
-- the visible result,
-- and any feature that makes the project feel real rather than tutorial-shaped.
+- one user task,
+- one or two actions,
+- one visible result.
 
-### 4. Close with proof
+Do not try to show everything. A short demo is not feature inventory. It is proof that the project works and that the project has a reason to exist.
 
-Last 3 to 5 seconds:
+This is also the section where you can show what makes the project stronger than a tutorial-shaped clone:
 
-- repeat the result,
-- or show deployment,
-- or show real usage context,
-- or show one evidence point such as users, activity, or a realistic workflow.
+- real logic,
+- real data,
+- real deployment,
+- real constraints,
+- or evidence of iteration.
+
+### 4. Result again: 20–25 seconds
+
+Close by reinforcing the outcome.
+
+Good endings:
+
+- the result shown again,
+- the deployed app visible,
+- a realistic task completed,
+- one proof point such as real users, activity, or live usage context.
+
+The final image should make the project feel real.
 
 ## What to record
 
-Good footage usually includes:
+Strong footage usually includes:
 
 - the main screen,
 - one successful user flow,
-- one proof point that the project is real,
-- one visible outcome.
+- one visible outcome,
+- one proof point that the project is real.
 
-Examples of proof points:
+Good proof points:
 
 - live deployment,
 - realistic data,
-- a real task being completed,
-- usage from actual users,
-- nontrivial project behavior,
-- evidence that the project evolved beyond a tutorial.
+- real user interaction,
+- nontrivial behavior,
+- a workflow that goes beyond a tutorial,
+- evidence that the project evolved through feedback or iteration.
 
 ## Recording rules
 
 - Record a clean screen, not the whole desktop if it adds noise.
 - Increase browser zoom if text is too small.
-- Use a visible cursor only if it helps understanding.
-- Remove notification popups and unrelated tabs.
-- Avoid tiny UI text that becomes unreadable in embeds.
-- Keep motion deliberate and slow enough to follow.
+- Remove unrelated tabs and notifications.
+- Keep cursor movement deliberate.
+- Avoid tiny interface text that becomes unreadable when embedded.
+- Prefer one clean flow over many rushed ones.
 
-## Voiceover or captions
+## Voiceover and text overlays
 
 You do not always need voiceover.
 
-For short README demos, silent screen capture plus short text overlay is often enough.
+For README demos, silent screen capture plus short text overlay is often enough.[1]
 
-If you do add narration:
+If you add narration:
 
 - keep it literal,
 - explain what is happening,
 - do not oversell,
-- and avoid generic product language.
+- avoid generic product language.
 
-## Editing rules
-
-- Cut dead time.
-- Cut loading that teaches nothing.
-- Cut repeated clicks.
-- Do not use long intros.
-- Use text overlays sparingly.
-
-If you add text, use it for:
+If you add text overlays, use them only to reduce uncertainty:
 
 - what the project does,
 - what the user is seeing,
-- and why this step matters.
+- why the step matters.
 
 ## What weakens a demo
 
-Weak demo patterns:
+Weak demo patterns include:
 
-- starting with setup instead of result,
-- long logo animation,
-- tiny unreadable interface,
-- trying to show every feature,
+- starting with setup instead of the result,
+- long intros,
+- tiny unreadable interface text,
+- too many features in one clip,
 - no clear outcome,
-- no evidence the project is real.
+- no visible proof that the project is real,
+- vanity metrics inside the video.
+
+Stars, downloads, and similar metrics belong next to the video in the README, not inside the clip itself.[1]
+
+## Suggested tools
+
+Practical options preserved from the research:
+
+- Arcade for lightweight browser demo recording,
+- QuickTime on macOS for simple capture,
+- DaVinci Resolve for free editing,
+- ElevenLabs as an optional voiceover tool, though on-screen text is often enough for a 20-second demo.[1]
+
+## Where the video should live
+
+The video should support the README, not live separately from it.
+
+Best placement:
+
+- embed a GIF directly in the README,
+- or link to a hosted video,
+- or link to YouTube if needed.[1]
+
+The README is still the main surface. The video helps it carry proof faster.
 
 ## Practical checklist
 
 - [ ] The first frame shows the project, not the tooling around it
-- [ ] The core action is visible within seconds
+- [ ] The result is visible in the first 3 seconds
 - [ ] The problem statement fits in one sentence
-- [ ] The clip stays under 30 seconds unless complexity justifies more
+- [ ] The clip stays around 20–25 seconds unless complexity justifies more
+- [ ] Only one clear flow is shown
 - [ ] The interface is readable at embed size
 - [ ] The ending reinforces that the project is real
+- [ ] The video is embedded in the README or linked next to the demo section
 
 ## Read next
 
 - [Full research report](./research-report.en.md)
-- [README signals short guide](./readme-signals.en.md)
+- [README signals guide](./readme-signals.en.md)
+
+## References
+
+[1]: ./research-report.en.md
+[2]: https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j
