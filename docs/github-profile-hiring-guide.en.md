@@ -624,3 +624,48 @@ It is a system:
 - LinkedIn for professional framing.
 
 If those surfaces reinforce each other, the signal becomes far stronger than any one of them alone.
+
+---
+
+## References
+
+Direct quotations are preserved inline in the report where they materially support a claim.  
+For the explicit public-link index, see [`source-index.en.md`](./source-index.en.md).
+
+### Public links verified for this repository
+
+1. JSGuruJobs, “Optimizing Your GitHub Profile for Job Hunting: A Technical Guide”  
+   https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j
+
+2. DEV Community, “How to Build a Developer Portfolio That Actually Gets You Hired (2026)”  
+   https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn
+
+3. Reddit, `r/learnprogramming`, hiring-manager discussion quoted in the report  
+   https://www.reddit.com/r/learnprogramming/comments/15l8gur
+
+4. HR Dive, “Eye tracking study shows recruiters look at resumes for 7 seconds”  
+   https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/
+
+5. OneNine, “Best Practices for Environment-Specific Configurations”  
+   https://onenine.com/best-practices-for-environment-specific-configurations/
+
+6. Reddit, `r/ExperiencedDevs`, “Does having a blog increase your chance of landing a job, or increase opportunity?”  
+   https://www.reddit.com/r/ExperiencedDevs/comments/y89gtl
+
+### Source names preserved from the original research
+
+The following source names are retained in the report because they were part of the original research base, even where a clean public URL was not added here:
+
+- TheLadders 2012 eye-tracking study
+- Spectacle Talent Partners commentary on TheLadders methodology
+- Workopolis
+- Barclay Simpson
+- Distinct Recruitment
+- Emory Career Center
+- LinkedIn discussion cited in the original report
+- freeCodeCamp forum discussion cited in the original report
+- SQ Magazine
+- Opus.pro
+- Nearstream
+- Hacker News
+- blogs.iamdhakrey.dev

@@ -12,7 +12,9 @@ This repo contains an English GitHub-friendly version of a source-backed verific
   - source-backed caveats,
   - practical implementation steps,
   - final checklists,
-  - section on what was inaccurate or overstated.
+  - section on what was inaccurate or overstated,
+  - inline direct quotations,
+  - references section linked to the source index.
 
 - [`docs/readme-signals-short-guide.en.md`](./docs/readme-signals-short-guide.en.md)  
   Short practical version:
@@ -20,6 +22,12 @@ This repo contains an English GitHub-friendly version of a source-backed verific
   - weak signals,
   - clone rule,
   - practical minimum to fix first.
+
+- [`docs/source-index.en.md`](./docs/source-index.en.md)  
+  Explicit source index:
+  - public links used in the report,
+  - preserved source names from the original research,
+  - notes on quotation preservation.
 
 ## Why this repo exists
 
@@ -76,6 +84,7 @@ The report draws on:
 The full references are listed in the report itself:
 
 - [`docs/github-profile-hiring-guide.en.md#references`](./docs/github-profile-hiring-guide.en.md#references)
+- [`docs/source-index.en.md`](./docs/source-index.en.md)
 
 ## Repo structure
 
@@ -83,7 +92,9 @@ The full references are listed in the report itself:
 github-rabbit-hole/
 ├── README.md
 └── docs/
-    └── github-profile-hiring-guide.en.md
+    ├── github-profile-hiring-guide.en.md
+    ├── readme-signals-short-guide.en.md
+    └── source-index.en.md
 ```
 
 ## Suggested reading path
