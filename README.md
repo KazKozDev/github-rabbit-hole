@@ -37,7 +37,7 @@ If you want to know why screenshots, tests, `.env.example`, live demos, commit q
 | Research | Full investigation, claim verification, direct quotations, caveats, and references | [`docs/research-report.en.md`](./docs/research-report.en.md) |
 | Theory | Shorter explanation of what README signals actually mean and why they matter | [`docs/readme-signals.en.md`](./docs/readme-signals.en.md) |
 | Practice | What to show in a demo video and how to present the project clearly | [`docs/video-guide.en.md`](./docs/video-guide.en.md) |
-| Coding LLM agent skill | Portable skill for a coding LLM agent that inspects a repo and writes a concise evidence-backed README | [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) |
+| Coding LLM agent skill | Portable skills for coding LLM agents that write README files and structure short demo-video workflows | [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) |
 
 ## Core Idea
 
@@ -46,6 +46,25 @@ This repo is built around one simple idea:
 - a README is not decoration,
 - most “best practices” are not rules,
 - and the strongest improvements come from understanding what a reviewer is inferring from the page.
+
+## Coding LLM Agent Skills
+
+These two files are meant to be reused as skills for coding LLM agents, not just read as notes.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>README Writer Skill</h3>
+      <p>A portable skill for coding LLM agents that inspect a repository, extract only defensible facts, and write a concise README that behaves like a landing page instead of a dump of documentation.</p>
+      <p><a href="./docs/skill-readme-writer.en.md"><strong>Open skill</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Demo Video Skill</h3>
+      <p>A portable skill for coding LLM agents that structure short project walkthroughs, lead with the result, and turn a demo into a clearer hiring signal instead of an unfocused screen recording.</p>
+      <p><a href="./docs/skill-video-demo.en.md"><strong>Open skill</strong></a></p>
+    </td>
+  </tr>
+</table>
 
 ## Visual Frames
 
