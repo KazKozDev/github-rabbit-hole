@@ -1,48 +1,94 @@
 # github-rabbit-hole
 
-Research notes on how GitHub profiles are actually evaluated in hiring, what separates real projects from tutorial work, how README structure affects first-pass screening, and how GitHub + Medium + LinkedIn reinforce each other.
+An evidence-backed research repository on how GitHub profiles are evaluated in hiring, what separates real projects from tutorial-shaped work, how README structure affects first-pass screening, and how GitHub + Medium + LinkedIn reinforce each other.
 
-This repository contains an English GitHub-friendly version of a source-backed research document originally assembled as a verification report.
+This repo contains an English GitHub-friendly version of a source-backed verification report and turns it into something easier to browse, cite, and reuse.
 
-## What is inside
+## Start here
 
 - [`docs/github-profile-hiring-guide.en.md`](./docs/github-profile-hiring-guide.en.md)  
   Full report in English:
-  - verification of the main claims,
-  - evidence-backed nuances and caveats,
-  - step-by-step implementation plan,
+  - claim verification,
+  - source-backed caveats,
+  - practical implementation steps,
   - final checklists,
   - section on what was inaccurate or overstated.
 
-## Core conclusion
+## Why this repo exists
 
-Most GitHub portfolio advice is not random, but it is also not a universal standard.
+There is a lot of GitHub portfolio advice online, but much of it is repeated as ritual:
 
-The repeated patterns around:
+- “add a GIF,”
+- “show tests,”
+- “delete clones,”
+- “write a blog,”
+- “make your profile look professional.”
 
-- README clarity,
-- demos and screenshots,
-- tests and CI,
-- `.env.example`,
-- meaningful commits,
-- transformed projects instead of raw clones,
+Some of that advice is useful. Some of it is overstated. Very little of it is traced carefully back to source material.
 
-all function mainly as compressed signals under time pressure.
+This repository exists to do exactly that:
 
-In other words:
+- verify the common claims,
+- preserve the nuance,
+- and turn the results into something practical.
 
-- a README is not decoration,
-- a project is not evaluated code-first,
-- and many “best practices” matter because they reduce uncertainty for a reviewer.
+## Core conclusions
 
-## Why this exists
+The strongest conclusions from the report are:
 
-This repo is for collecting source-backed material, structured notes, and practical writeups around:
+1. A GitHub repository is usually not evaluated code-first. It is filtered through signals first.
+2. A README is not decoration. It is part of the screening surface.
+3. Tests, CI, `.env.example`, setup clarity, and meaningful commits matter because they compress information about how you work.
+4. Raw clones are weak signals when replication is the endpoint. Extended projects, real users, and clear trade-offs change that interpretation.
+5. Medium articles help most when they extend real project work, not when they replace it.
 
-- GitHub portfolio quality,
-- hiring signals,
-- README design,
-- project presentation,
-- and developer credibility in public.
+In short:
 
-If you are working on your GitHub profile and want something more rigorous than recycled advice, start with the full report.
+> Most GitHub “best practices” are not universal standards. They are compressed signals under time pressure.
+
+## What you can use this for
+
+Use this repo if you want to:
+
+- clean up your GitHub profile for hiring,
+- make your README more convincing,
+- distinguish real portfolio signals from cargo-cult formatting,
+- build a better project case study,
+- connect GitHub, Medium, and LinkedIn into one coherent hiring surface.
+
+## Source base
+
+The report draws on:
+
+- DEV Community articles on GitHub hiring and portfolio design,
+- résumé-screening coverage such as HR Dive,
+- Reddit discussions from hiring managers and experienced developers,
+- configuration best-practice references such as OneNine,
+- and related material around demos, writing, and project presentation.
+
+The full references are listed in the report itself:
+
+- [`docs/github-profile-hiring-guide.en.md#references`](./docs/github-profile-hiring-guide.en.md#references)
+
+## Repo structure
+
+```text
+github-rabbit-hole/
+├── README.md
+└── docs/
+    └── github-profile-hiring-guide.en.md
+```
+
+## Suggested reading path
+
+If you only want the practical part:
+
+1. Open the [claim verification section](./docs/github-profile-hiring-guide.en.md#claim-verification)
+2. Read the [step-by-step guide](./docs/github-profile-hiring-guide.en.md#step-by-step-guide)
+3. Use the [final checklist](./docs/github-profile-hiring-guide.en.md#final-checklist)
+
+If you want the nuance:
+
+1. Read the [claim verification section](./docs/github-profile-hiring-guide.en.md#claim-verification)
+2. Read [what was wrong or inaccurate](./docs/github-profile-hiring-guide.en.md#what-was-wrong-or-inaccurate)
+3. Then apply the practical checklist
