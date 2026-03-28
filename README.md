@@ -14,6 +14,13 @@ This repo contains an English GitHub-friendly version of a source-backed verific
   - final checklists,
   - section on what was inaccurate or overstated.
 
+- [`docs/readme-signals-short-guide.en.md`](./docs/readme-signals-short-guide.en.md)  
+  Short practical version:
+  - strongest README signals,
+  - weak signals,
+  - clone rule,
+  - practical minimum to fix first.
+
 ## Why this repo exists
 
 There is a lot of GitHub portfolio advice online, but much of it is repeated as ritual:
