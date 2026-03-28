@@ -23,6 +23,9 @@ It is also an attempt to study attention itself under modern conditions:
 
 If you want to know why screenshots, tests, `.env.example`, live demos, commit quality, and project framing matter, this repo is meant to make those signals legible.
 
+Published article:
+[The Great README Hunt: What README “Best Practices” Actually Signal](https://medium.com/@kazkozdev/the-great-readme-hunt-what-readme-best-practices-actually-signal-d9df9782b512)
+
 ## Start Here
 
 <table>
