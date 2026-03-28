@@ -1,220 +1,171 @@
-# Agent Skill for Coding LLM Agents: Demo Video Producer
+---
+name: demo-planner
+description: Use when the user asks to create, improve, script, structure, or review a project demo video, walkthrough clip, README GIF, or short product recording. Build a short proof-first demo plan grounded in repository evidence and optimized for first-pass reviewer clarity.
+input-hint: Repository path plus any screenshots, recordings, live links, or demo constraints.
+output-hint: A finished short demo-video plan, script, or shot list.
+---
 
-This is the canonical GitHub-friendly video skill for this repository.
+# Demo Planner
 
-It merges the original demo-video workflow with the research findings behind first-pass reviewer attention, proof-first presentation, and short demo structure.
+## Objective
 
-## Purpose
+Produce a short demo plan that helps a reviewer answer:
 
-Help a coding LLM agent produce a short project demo that shows the result first and explains the project with minimal friction.
+1. Is the project real?
+2. What does it do?
+3. What is the main interaction?
+4. Why is it worth more attention?
 
-The goal is not a flashy clip.
+The demo is a proof asset, not a feature dump.
 
-The goal is a demo that helps a reviewer quickly infer:
+## Trigger
 
-1. the project is real,
-2. it works,
-3. the main interaction is understandable,
-4. and the project is worth more attention.
+Use this skill when the user asks to:
 
-## Core rule
+- create a demo video,
+- plan a walkthrough,
+- make a README GIF,
+- improve an existing demo,
+- script a short product recording,
+- or structure a proof-first showcase for a repository.
 
-Lead with the result, not with setup.
+## Non-Negotiable Rules
 
-## What the agent should optimize for
+- Lead with the result, not the setup.
+- Show one flow, not everything.
+- Never invent proof points.
+- Do not claim users, deployment, or impact without evidence.
+- Prefer one short clear demo over a long unfocused one.
 
-The video should reduce doubt fast.
+## Inspection Scope
 
-It should make the viewer feel:
+Inspect enough to answer:
 
-- this exists,
-- this works,
-- I understand what it is,
-- and I should keep looking.
+- what visible result is strongest,
+- what user flow is clearest,
+- what can be shown without setup-heavy explanation,
+- and what makes the project feel real rather than tutorial-shaped.
 
-## Input
+Look for:
 
-The agent should gather:
+- live deployment links,
+- screenshot or recording assets,
+- README demo sections,
+- realistic demo data,
+- and features that visibly prove value.
 
-- screenshots or screen recordings,
-- project title,
-- one-sentence problem statement,
-- key flow to demonstrate,
-- proof that the project is real,
-- target platform if known.
+## Inputs
 
-## Recommended workflow
+Minimum useful inputs:
 
-### 1. Select the right flow
+- repository contents,
+- screenshots or recordings if available,
+- live deployment if available,
+- one-line project description,
+- strongest user flow,
+- and realistic demo data if available.
 
-Choose one user flow only.
+## Strategy
 
-Prefer:
+Optimize for:
 
-- the primary action,
-- a meaningful before/after state,
-- or the feature that most clearly separates the project from tutorial-shaped work.
+- proof in the first frame,
+- one clear flow,
+- readability at small embed size,
+- minimal dead time,
+- and a closing frame that reinforces the result.
 
-### 2. Gather assets
+Defaults:
 
-Useful assets:
+- the first 3 seconds matter most,
+- proof-first beats setup-first,
+- 20 to 25 seconds is a strong default range,
+- and the demo should strengthen the README, not replace it.
 
-- screenshots,
-- screen recordings,
-- UI states,
-- short text overlays,
-- deployment link or usage proof,
-- optional narration.
+## Recommended Sequence
 
-### 3. Build the sequence
+### 1. Result first: 0 to 3 seconds
 
-Recommended sequence:
+- show the project already working,
+- show the visible output immediately.
 
-1. Result on screen immediately
-2. One-line context
-3. Core interaction
-4. Close with proof or outcome
+### 2. One-line context: 3 to 5 seconds
 
-### 4. Keep the pace tight
+- explain what the project does,
+- explain the problem it solves.
 
-For README demos and portfolio clips:
+### 3. Core interaction: 5 to 20 seconds
 
-- target about 20 to 25 seconds,
-- cut dead time,
-- keep the UI readable,
-- avoid trying to show everything.
+- one user task,
+- one or two meaningful actions,
+- one visible result.
 
-### 5. Render cleanly
+### 4. Result again: 20 to 25 seconds
 
-The final output should:
+- reinforce the outcome,
+- close on proof.
 
-- be readable at small size,
-- avoid unnecessary transitions,
-- use text sparingly,
-- and end on a frame that reinforces the project’s value.
+## Overlay Rules
 
-## Research-backed heuristics
+Use text only when it reduces uncertainty.
 
-### 1. The first 3 seconds matter most
-
-The viewer should see the result immediately.
-
-Do not open with:
-
-- setup,
-- terminal commands,
-- editor tabs,
-- folder structure,
-- logo animation,
-- or a talking head.
-
-Open with:
-
-- the app already running,
-- the key action already in motion,
-- or the output clearly visible.
-
-### 2. Proof beats explanation
-
-A short demo works when it establishes confidence before context.
-
-The sequence should make the viewer think:
-
-- this is real,
-- this works,
-- I understand what it is.
-
-### 3. Show one flow, not everything
-
-A good demo is not feature inventory.
-
-Choose one flow that best proves:
-
-- value,
-- clarity,
-- realness,
-- and independent judgment.
-
-### 4. Use visible proof points
-
-If available, include:
-
-- live deployment,
-- realistic data,
-- real user interaction,
-- nontrivial behavior,
-- evidence of iteration,
-- visible constraints or trade-offs.
-
-## Good overlays
-
-Use overlays only when they reduce uncertainty.
-
-Good overlay examples:
+Good overlay roles:
 
 - what the project does,
-- what the user is seeing,
+- what the viewer is seeing,
 - what changed,
-- why this flow matters.
+- why the shown flow matters.
 
-## Recording rules
+## Recording Rules
 
-- record a clean screen, not a noisy desktop
-- zoom the interface if text is small
-- remove unrelated tabs and notifications
-- keep cursor movement deliberate
-- avoid unreadable UI text
-- prefer one clean flow over many rushed ones
+- record a clean screen,
+- remove unrelated tabs and notifications,
+- zoom small UI if needed,
+- keep cursor movement deliberate,
+- avoid unreadable text,
+- and prefer one clean flow over many rushed ones.
 
-## What the agent should avoid
+## What To Avoid
 
-- opening with setup or code editor,
+- opening with setup,
+- terminal commands,
+- editor tabs,
+- logo animation,
 - long intros,
-- unreadable text,
-- too many features in one clip,
-- empty motion with no outcome,
-- marketing voice with no visible proof,
-- vanity metrics inside the video.
+- too many features,
+- no visible outcome,
+- and marketing copy with no proof.
 
-## Tooling notes
+## Tooling
 
-This workflow was originally based on a Remotion-driven video production skill for programmatic walkthroughs, but the logic also works for simple screen recordings edited manually.
+Use any toolchain that can produce a short clean demo.
 
-If automation is available, the agent can:
+Common options:
 
-- gather images or screen captures,
-- assemble a short sequence,
-- add text overlays,
-- and render an exportable video file.
+- QuickTime,
+- Arcade,
+- DaVinci Resolve,
+- Remotion,
+- ElevenLabs for optional voiceover.
 
-Practical tools preserved from the research trail:
+## Placement Rules
 
-- Arcade
-- QuickTime
-- DaVinci Resolve
-- ElevenLabs for optional voiceover support
+The demo should support the README.
 
-## Placement
+Preferred placement:
 
-The video should support the README, not live separately from it.
+- embedded GIF in the README,
+- hosted video linked from the README,
+- or YouTube link if necessary.
 
-Best placement:
+## Output Contract
 
-- embed a GIF directly in the README,
-- or link to a hosted video,
-- or link to YouTube if needed.
+The final output must include:
 
-## Success criteria
+- the strongest flow to show,
+- a short sequence plan,
+- proof points to surface,
+- what to cut,
+- and where the demo should live.
 
-A good demo video:
-
-- shows the project working immediately,
-- keeps the viewer oriented,
-- highlights only the most important flow,
-- and makes the project feel real.
-
-## Related files
-
-- [Demo video guide](./video-guide.en.md)
-- [Full research report](./research-report.en.md)
-- [README writer agent skill](./skill-readme-writer.en.md)
+If the repository has no clear visual result, say so and explain what assets or input are missing.

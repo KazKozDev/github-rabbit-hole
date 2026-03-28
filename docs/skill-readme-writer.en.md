@@ -1,37 +1,35 @@
-# Agent Skill for Coding LLM Agents: README Writer
+---
+name: readme-writer
+description: Use when the user asks to create, rewrite, improve, audit, or standardize a README for a software repository. Inspect the repository first, extract only defensible facts, and write a concise README that acts as a reviewer-facing landing page rather than a dump of documentation.
+input-hint: Repository path and any explicit constraints from the user.
+output-hint: A finished README.md draft grounded in repository evidence.
+---
 
-This is the canonical GitHub-friendly README skill for this repository.
+# README Writer
 
-It merges the original README-writing workflow with the findings of the research report, so the skill is not only about structure, but also about signal quality, first-pass reviewer attention, and practical credibility.
+## Objective
 
-## Purpose
-
-Write English `README.md` files as concise project entry points grounded in repository evidence.
-
-The target is not “a nice README.”
-
-The target is a README that helps a reviewer quickly infer:
+Write an English `README.md` that helps a reviewer quickly infer:
 
 1. what the project is,
 2. whether it is real,
 3. whether the author seems competent,
 4. and whether the project is worth more attention.
 
-## Core framing
+The README is a screening surface, not a place to explain everything.
 
-Treat the README as a screening surface.
+## Trigger
 
-The first job of the file is not completeness. Its first job is to survive the first pass, reduce uncertainty, and justify continued attention.
+Use this skill when the user asks to:
 
-That means the agent should optimize for:
+- create a README,
+- rewrite a README,
+- improve or strengthen a README,
+- audit a README,
+- standardize a project landing page,
+- or make a repository more legible for hiring, portfolio, or first-pass review.
 
-- clarity in the first screen,
-- proof before explanation where possible,
-- strong signals over decorative details,
-- context over generic feature lists,
-- and only defensible claims.
-
-## Non-negotiable rule
+## Non-Negotiable Rule
 
 Never write anything that is not supported by repository evidence or explicit user input.
 
@@ -42,64 +40,60 @@ Do not invent:
 - users,
 - production status,
 - trade-offs,
-- or architectural intent.
+- architectural intent,
+- or roadmap claims.
 
-## What the agent should inspect
+## Inspection Scope
 
-Minimum useful evidence:
-
-- package manifest or runtime file,
-- deployment config if present,
-- `.env.example` or setup samples,
-- test configuration,
-- CI configuration,
-- entry points,
-- major modules,
-- demo assets,
-- existing docs that clarify purpose, setup, or architecture.
-
-The agent should inspect enough to answer:
+Inspect enough to answer:
 
 - what the project does,
 - why it exists,
+- how it is run,
+- whether it shows proof of life,
 - whether it appears tutorial-shaped or independently developed,
-- whether it has visible proof of life,
-- whether it shows discipline in setup, testing, and configuration.
+- and whether it shows engineering discipline in setup, tests, CI, and configuration.
 
-## Internal fact sheet
+Check these when present:
+
+- package manifest or runtime files,
+- entry points and major modules,
+- deploy configuration,
+- `.env.example` or setup samples,
+- test configuration,
+- CI configuration,
+- demo assets,
+- existing docs only when they clarify purpose, setup, or architecture.
+
+## Internal Fact Sheet
 
 Before writing, extract:
 
 - project name,
 - primary language,
 - framework or runtime,
-- one-sentence project description,
+- one-sentence description,
 - problem solved,
 - likely audience if inferable,
 - key capabilities,
-- entry point,
-- core modules,
 - real commands,
+- deployment evidence,
 - tests present or absent,
 - CI present or absent,
-- deployment evidence,
+- env sample present or absent,
 - demo assets,
-- env sample,
 - evidence of real usage or iteration,
-- signals that suggest independent judgment,
-- unknowns that require explicit user input.
+- and unknowns that need user confirmation.
 
-## Research-backed writing strategy
+## Writing Strategy
 
 ### 1. Optimize for first-screen clarity
 
-Within 10 to 20 seconds, the reader should be able to answer:
+The first screen should let the reader answer:
 
 1. What does this project do?
 2. Why does it exist?
 3. How do I run or try it?
-
-The first screen should do more work than the rest of the file.
 
 ### 2. Prefer strong signals
 
@@ -107,57 +101,46 @@ Strong signals include:
 
 - a clear one-sentence description,
 - a live demo, screenshot, or GIF,
-- some evidence of real users or real deployment,
+- evidence of real deployment or usage,
 - tests and CI where relevant,
 - setup clarity,
 - `.env.example`,
-- meaningful commit history,
-- a section that shows reflection, trade-offs, or lessons learned.
+- and a concise reflection on trade-offs or lessons learned.
 
-Weak or low-value signals include:
+Weak signals include:
 
 - decorative badges,
 - generic marketing language,
-- empty feature inflation,
-- tutorial-shaped projects with no original logic,
-- README copy that sounds assembled rather than examined.
+- inflated feature lists,
+- and over-positioning tutorial-shaped work.
 
-### 3. Context is not optional
+### 3. Context is required
 
-A project should not read like:
-
-> here is a todo app
-
-It should explain:
+If the repository supports it, explain:
 
 - what problem it solves,
 - why it was built,
 - what constraints mattered,
-- what was difficult,
-- and what changed through implementation.
+- and what changed during implementation.
 
-### 4. Treat clones carefully
+### 4. Treat clones honestly
 
-If the repository looks like a recognizable tutorial clone, the README should not try to hide that.
+If the repository looks tutorial-shaped, do not try to disguise it.
 
-Instead, the agent should look for evidence that replication was not the endpoint:
+Look for evidence that replication was not the endpoint:
 
 - original logic,
 - additional features,
 - deployment,
-- real users,
-- real iteration,
-- or technical trade-offs.
+- real usage,
+- iteration,
+- or visible technical trade-offs.
 
-If no such evidence exists, the README should stay factual and avoid over-positioning the project.
+### 5. Use proof early
 
-### 5. Use proof where it exists
+If screenshots, GIFs, videos, or live links exist, surface them near the top.
 
-If the repo has a live demo, screenshot, GIF, or short video, surface it early.
-
-Visible proof reduces doubt faster than abstract explanation.
-
-## Recommended structure
+## Recommended Structure
 
 Use this order when the repository supports it:
 
@@ -172,98 +155,65 @@ Use this order when the repository supports it:
 9. Usage
 10. Environment variables
 11. Tests / CI
-12. What I learned / trade-offs / what I’d do differently
+12. Trade-offs / lessons learned
 
-## Section guidance
+## Section Rules
 
-### Title + one-line description
+### Title and one-line description
 
-Make it direct and literal.
+Make them direct and literal.
 
-Bad:
+### Demo block
 
-- “A modern platform for seamless productivity”
-
-Better:
-
-- “Browser extension for capturing and summarizing support conversations”
-
-### Demo
-
-If a live demo, screenshot, GIF, or video exists, put it early.
-
-The README should not make the reader imagine whether the project works.
+Place visible proof early when it exists.
 
 ### Overview
 
-Keep this short.
-
-It should explain:
-
-- what the project does,
-- who it is for if inferable,
-- and why it exists.
-
-### Problem / context
-
-This is where the file can stop sounding like a tutorial wrapper.
-
-Useful context includes:
-
-- what was frustrating or missing,
-- why the project was built,
-- what constraints shaped it,
-- what kind of usage or iteration it saw.
+Keep it short and concrete.
 
 ### Features
 
-List only features that map to real code, real flows, or visible outputs.
+List only capabilities that map to real code or real flows.
 
-Do not pad.
-
-### Setup / installation
+### Setup
 
 Use only real commands.
 
-If the project requires environment variables, document them clearly and point to `.env.example` if it exists.
+### Environment variables
 
-### Tests / CI
+Point to `.env.example` if present and document only what is necessary.
 
-If the repo contains tests or CI, surface that briefly because it is a strong signal of engineering discipline.
+### Tests and CI
 
-### Reflection section
+Surface them briefly when present because they are strong reviewer signals.
 
-Prefer one concise reflective section:
+### Reflection
 
-- `What I Learned`
+Use one concise section such as:
+
 - `Trade-offs`
+- `What I Learned`
 - `What I’d Do Differently`
 
-This is one of the strongest ways to signal judgment rather than assembly.
+## What To Avoid
 
-## What the agent should avoid
-
-- invented positioning,
 - unsupported claims,
-- decorative badges as filler,
-- walls of hype,
-- generic phrases like “cutting-edge” or “powerful solution,”
-- pretending a tutorial clone is original without evidence,
-- turning the README into full documentation.
+- hype language,
+- decorative filler,
+- giant walls of documentation in the main README,
+- claiming originality without evidence,
+- and generic phrases that could fit any project.
 
-## Output standard
+## Output Contract
 
-The final README should make the project feel:
+The final README must:
 
-- real,
-- legible,
-- runnable,
-- and more examined than assembled.
+- feel grounded in repository evidence,
+- be readable in one pass,
+- make the project feel real and runnable,
+- and reduce uncertainty quickly.
 
-If the file succeeds, a reviewer should feel that the author understands both the project and the reader’s limited attention.
+If critical facts are missing, return:
 
-## Related files
-
-- [Research report](./research-report.en.md)
-- [README signals guide](./readme-signals.en.md)
-- [Video guide](./video-guide.en.md)
+- a short note about what is missing,
+- and only the minimum questions needed to proceed.
