@@ -41,6 +41,9 @@ If you want to know why screenshots, tests, `.env.example`, live demos, commit q
       <p><a href="./docs/skill-readme-writer.en.md"><strong>Open skill</strong></a></p>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
     <td width="50%" valign="top">
       <h3>Video</h3>
