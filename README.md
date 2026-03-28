@@ -15,15 +15,22 @@
 
 This repository is for developers who are looking for work and want to understand README best practices from the other side of the table.
 
-The point is not just to collect formatting advice.
+It is not mainly a formatting guide.
 
-It is to understand how GitHub repositories are actually read by:
+It is an attempt to understand how GitHub repositories are actually seen by:
 
 - recruiters doing first-pass filtering,
 - hiring managers deciding whether to keep looking,
-- and technical reviewers or team leads who want evidence that a project is real, thoughtful, and competently built.
+- and technical reviewers or team leads looking for evidence that a project is real, thoughtful, and competently built.
 
-If you want to know why screenshots, tests, `.env.example`, live demos, commit quality, or project framing matter, this repo is meant to make those signals legible.
+It is also, more broadly, an attempt to study attention itself under modern conditions:
+
+- too much noise,
+- too many repeated “best practices,”
+- too little time,
+- and the constant pressure of fragmented attention.
+
+If you want to know why screenshots, tests, `.env.example`, live demos, commit quality, and project framing matter, this repo is meant to make those signals legible.
 
 ## Start Here
 
