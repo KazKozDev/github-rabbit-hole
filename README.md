@@ -30,14 +30,17 @@ If you want to know why screenshots, tests, `.env.example`, live demos, commit q
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Research</h3>
-      <p>Full investigation, claim verification, direct quotations, caveats, and references.</p>
-      <p><a href="./docs/research-report.en.md"><strong>Open file</strong></a></p>
+      <h3>README</h3>
+      <p>Research, theory, and coding-agent workflow for writing stronger GitHub READMEs.</p>
+      <p><a href="./docs/research-report.en.md"><strong>Research report</strong></a></p>
+      <p><a href="./docs/readme-signals.en.md"><strong>Theory guide</strong></a></p>
+      <p><a href="./docs/skill-readme-writer.en.md"><strong>Agent skill</strong></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Practice</h3>
-      <p>What to show in a demo video and how to present the project clearly.</p>
-      <p><a href="./docs/video-guide.en.md"><strong>Open file</strong></a></p>
+      <h3>Video</h3>
+      <p>Practical guide and coding-agent workflow for short demo videos that strengthen the project signal.</p>
+      <p><a href="./docs/video-guide.en.md"><strong>Practical guide</strong></a></p>
+      <p><a href="./docs/skill-video-demo.en.md"><strong>Agent skill</strong></a></p>
     </td>
   </tr>
 </table>
@@ -75,25 +78,6 @@ Some details compress much more information than others. A live demo, real deplo
 <p>
 The problem with clones is usually not resemblance. The problem is stopping at replication. A project becomes stronger when it is extended, deployed, shaped by real constraints, or pushed far enough that it shows independent judgment.
 </p>
-
-## Coding LLM Agent Skills
-
-These two files are meant to be reused as skills for coding LLM agents, not just read as notes.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>README Writer Skill</h3>
-      <p>A portable skill for coding LLM agents that inspect a repository, extract only defensible facts, and write a concise README that behaves like a landing page instead of a dump of documentation.</p>
-      <p><a href="./docs/skill-readme-writer.en.md"><strong>Open skill</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Demo Video Skill</h3>
-      <p>A portable skill for coding LLM agents that structure short project walkthroughs, lead with the result, and turn a demo into a clearer hiring signal instead of an unfocused screen recording.</p>
-      <p><a href="./docs/skill-video-demo.en.md"><strong>Open skill</strong></a></p>
-    </td>
-  </tr>
-</table>
 
 ## Published Article
 
