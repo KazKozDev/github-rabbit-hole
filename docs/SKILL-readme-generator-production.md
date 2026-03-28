@@ -96,7 +96,7 @@ Optimize for:
 - context over generic feature lists
 - concise structure
 
-Research-aligned priorities:
+Research-backed priorities:
 
 - a clear one-sentence description
 - visible proof if available
@@ -193,5 +193,5 @@ If critical facts are missing, return:
 
 ## Related Files
 
-- [Research-aligned README skill](./SKILL-readme-generator-research-aligned.md)
+- [Canonical README skill notes](./skill-readme-writer.en.md)
 - [Research report](./research-report.en.md)

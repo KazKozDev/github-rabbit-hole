@@ -94,7 +94,7 @@ Optimize for:
 - context over generic feature lists
 - concise structure
 
-Research-aligned priorities:
+Research-backed priorities:
 
 - a clear one-sentence description
 - visible proof if available

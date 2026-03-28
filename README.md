@@ -34,7 +34,6 @@ If you want to know why screenshots, tests, `.env.example`, live demos, commit q
       <p>Research and theory for writing stronger GitHub READMEs.</p>
       <p><a href="./docs/research-report.en.md"><strong>Research report</strong></a></p>
       <p><a href="./docs/readme-signals.en.md"><strong>Theory guide</strong></a></p>
-      <p><a href="./docs/SKILL-readme-generator-research-aligned.md"><strong>Research-aligned skill</strong></a></p>
     </td>
     <td width="50%" valign="top">
       <h3>README Agent Skill</h3>

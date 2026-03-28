@@ -73,7 +73,7 @@ Optimize for:
 - minimal dead time
 - closing on a reinforced result
 
-Research-aligned defaults:
+Research-backed defaults:
 
 - first 3 seconds matter most
 - proof-first beats setup-first
