@@ -15,15 +15,13 @@
 
 This repository is for developers who are looking for work and want to understand README best practices from the other side of the table.
 
-It is not mainly a formatting guide.
-
-It is an attempt to understand how GitHub repositories are actually seen by:
+It is not mainly a formatting guide. It is an attempt to understand how GitHub repositories are actually seen by:
 
 - recruiters doing first-pass filtering,
 - hiring managers deciding whether to keep looking,
 - and technical reviewers or team leads looking for evidence that a project is real, thoughtful, and competently built.
 
-It is also, more broadly, an attempt to study attention itself under modern conditions:
+It is also an attempt to study attention itself under modern conditions:
 
 - too much noise,
 - too many repeated “best practices,”
@@ -59,17 +57,29 @@ These three visuals summarize the argument:
 
 <p><strong>1. A repository is filtered before code is read.</strong></p>
 
+<p>
+The first job of a README is not to explain everything. Its first job is to survive the first pass, reduce uncertainty, and earn another minute of attention. That is why first-screen clarity matters more than completeness.
+</p>
+
 <p align="center">
   <img src="./assets/signal-strength.png" alt="Signal strength" width="100%" />
 </p>
 
 <p><strong>2. Not every README signal carries the same weight.</strong></p>
 
+<p>
+Some details compress much more information than others. A live demo, real deployment, clear problem statement, tests, or thoughtful trade-offs tell a reviewer how you work. Other details, like decorative badges, add much less on their own.
+</p>
+
 <p align="center">
   <img src="./assets/clone-spectrum.png" alt="Clone spectrum" width="100%" />
 </p>
 
 <p><strong>3. The real distinction is endpoint vs. transformation.</strong></p>
+
+<p>
+The problem with clones is usually not resemblance. The problem is stopping at replication. A project becomes stronger when it is extended, deployed, shaped by real constraints, or pushed far enough that it shows independent judgment.
+</p>
 
 ## Files
 
