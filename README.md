@@ -13,6 +13,18 @@
   They are signals reviewers use under time pressure.
 </p>
 
+This repository is for developers who are looking for work and want to understand README best practices from the other side of the table.
+
+The point is not just to collect formatting advice.
+
+It is to understand how GitHub repositories are actually read by:
+
+- recruiters doing first-pass filtering,
+- hiring managers deciding whether to keep looking,
+- and technical reviewers or team leads who want evidence that a project is real, thoughtful, and competently built.
+
+If you want to know why screenshots, tests, `.env.example`, live demos, commit quality, or project framing matter, this repo is meant to make those signals legible.
+
 ## Start Here
 
 | Entry point | Use it for | File |
