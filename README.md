@@ -2,14 +2,14 @@
   <img src="./assets/readme-hero.png" alt="README hero banner" width="100%" />
 </p>
 
-<h1 align="center">github-rabbit-hole</h1>
+<h1 align="center">GitHub Rabbit Hole</h1>
 
 <p align="center">
   Research, theory, and practical workflows for writing stronger GitHub READMEs.
 </p>
 
 <p align="center">
-  <strong>The core idea:</strong> most README “best practices” are not rules.<br />
+  Most README “best practices” are not rules.<br />
   They are signals reviewers use under time pressure.
 </p>
 
