@@ -39,25 +39,6 @@ This repo is built around one simple idea:
 - most “best practices” are not rules,
 - and the strongest improvements come from understanding what a reviewer is inferring from the page.
 
-## Coding LLM Agent Skills
-
-These two files are meant to be reused as skills for coding LLM agents, not just read as notes.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>README Writer Skill</h3>
-      <p>A portable skill for coding LLM agents that inspect a repository, extract only defensible facts, and write a concise README that behaves like a landing page instead of a dump of documentation.</p>
-      <p><a href="./docs/skill-readme-writer.en.md"><strong>Open skill</strong></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Demo Video Skill</h3>
-      <p>A portable skill for coding LLM agents that structure short project walkthroughs, lead with the result, and turn a demo into a clearer hiring signal instead of an unfocused screen recording.</p>
-      <p><a href="./docs/skill-video-demo.en.md"><strong>Open skill</strong></a></p>
-    </td>
-  </tr>
-</table>
-
 ## Visual Frames
 
 These three visuals summarize the argument:
@@ -92,18 +73,21 @@ Some details compress much more information than others. A live demo, real deplo
 The problem with clones is usually not resemblance. The problem is stopping at replication. A project becomes stronger when it is extended, deployed, shaped by real constraints, or pushed far enough that it shows independent judgment.
 </p>
 
-## Files
+## Coding LLM Agent Skills
 
-| File | Role |
-|---|---|
-| [`docs/readme-signals.en.md`](./docs/readme-signals.en.md) | Short practical README guide |
-| [`docs/video-guide.en.md`](./docs/video-guide.en.md) | Practical guide for short project demos |
-| [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) | Skill for coding LLM agents that write README files from repository evidence |
-| [`docs/skill-video-demo.en.md`](./docs/skill-video-demo.en.md) | Skill for coding LLM agents that produce short demo-video workflows |
-| [`docs/sources.en.md`](./docs/sources.en.md) | Source index with public links and preserved source names |
+These two files are meant to be reused as skills for coding LLM agents, not just read as notes.
 
-## Suggested Path
-
-1. Read the [research report](./docs/research-report.en.md) if you want the evidence.
-2. Read the [theory guide](./docs/readme-signals.en.md) if you want the compressed model.
-3. Use the [README writer skill](./docs/skill-readme-writer.en.md) if you want a coding LLM agent workflow you can reuse.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>README Writer Skill</h3>
+      <p>A portable skill for coding LLM agents that inspect a repository, extract only defensible facts, and write a concise README that behaves like a landing page instead of a dump of documentation.</p>
+      <p><a href="./docs/skill-readme-writer.en.md"><strong>Open skill</strong></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Demo Video Skill</h3>
+      <p>A portable skill for coding LLM agents that structure short project walkthroughs, lead with the result, and turn a demo into a clearer hiring signal instead of an unfocused screen recording.</p>
+      <p><a href="./docs/skill-video-demo.en.md"><strong>Open skill</strong></a></p>
+    </td>
+  </tr>
+</table>
