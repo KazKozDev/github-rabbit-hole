@@ -9,9 +9,12 @@ Research notes, practical guides, and portable agent skills for making GitHub pr
 
 Most GitHub “best practices” are not universal standards. They are compressed signals under time pressure.
 
+![How a GitHub repository is evaluated](./assets/evaluation-funnel.png)
+
 ## Quick Nav
 
 - [Research report](./docs/research-report.en.md)
+- [Visual index](./docs/index.md)
 - [Video guide](./docs/video-guide.en.md)
 - [README writer skill](./docs/skill-readme-writer.en.md)
 - [Video demo skill](./docs/skill-video-demo.en.md)
@@ -23,6 +26,7 @@ Most GitHub “best practices” are not universal standards. They are compresse
 | Entry point | Use it for | File |
 |---|---|---|
 | Research report | Full investigation, claim verification, direct quotations, caveats, and checklists | [`docs/research-report.en.md`](./docs/research-report.en.md) |
+| Visual index | Mini landing page with the three core analytical visuals and entry links | [`docs/index.md`](./docs/index.md) |
 | Video guide | What a project video should show, what to show first, and how to record it | [`docs/video-guide.en.md`](./docs/video-guide.en.md) |
 | README writer skill | Portable spec for an agent that inspects a repo and writes a concise evidence-backed README | [`docs/skill-readme-writer.en.md`](./docs/skill-readme-writer.en.md) |
 | Video demo skill | Portable spec for an agent that assembles short project walkthroughs with the result first | [`docs/skill-video-demo.en.md`](./docs/skill-video-demo.en.md) |
@@ -49,6 +53,28 @@ This repository exists to do that work once and keep the result practical.
 - portable agent-skill specs for writing READMEs and producing demo videos
 - explicit source preservation with public links and preserved quoted material
 
+## Visual Frames
+
+These three visuals compress the core argument of the repo:
+
+### 1. Repositories are filtered before code is read
+
+![Evaluation funnel](./assets/evaluation-funnel.png)
+
+Source: adapted from JSGuruJobs, HR Dive, and hiring-manager discussions on Reddit. Timings are illustrative.
+
+### 2. Not every hiring signal carries the same weight
+
+![Signal strength](./assets/signal-strength.png)
+
+Source: synthesized from JSGuruJobs, OneNine, and hiring-manager discussions. Signal strength is interpretive, not quantitative.
+
+### 3. The real distinction is endpoint vs. transformation
+
+![Clone spectrum](./assets/clone-spectrum.png)
+
+Source: synthesized from portfolio guidance and hiring discussions on clones, expanded projects, and real-user work. This spectrum is conceptual, not a measured scoring model.
+
 ## Also Included
 
 | File | Role |
@@ -61,8 +87,9 @@ This repository exists to do that work once and keep the result practical.
 ### If you want the reasoning
 
 1. [Research report](./docs/research-report.en.md)
-2. [Sources](./docs/sources.en.md)
-3. [README signals](./docs/readme-signals.en.md)
+2. [Visual index](./docs/index.md)
+3. [Sources](./docs/sources.en.md)
+4. [README signals](./docs/readme-signals.en.md)
 
 ### If you want to execute
 
