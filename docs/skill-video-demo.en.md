@@ -218,4 +218,3 @@ A good demo video:
 - [Demo video guide](./video-guide.en.md)
 - [Full research report](./research-report.en.md)
 - [README writer agent skill](./skill-readme-writer.en.md)
-- [Production-ready local skill](./SKILL-video-demo-production.md)

@@ -267,4 +267,3 @@ If the file succeeds, a reviewer should feel that the author understands both th
 - [Research report](./research-report.en.md)
 - [README signals guide](./readme-signals.en.md)
 - [Video guide](./video-guide.en.md)
-- [Production-ready local skill](./SKILL-readme-generator-production.md)
