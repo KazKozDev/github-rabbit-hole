@@ -8,14 +8,7 @@
   Research, theory, and practical workflows for writing stronger GitHub READMEs.
 </p>
 
-<p align="center">
-  Most README “best practices” are not rules.<br />
-  They are signals reviewers use under time pressure.
-</p>
-
-This repository is for developers who are looking for work and want to understand README best practices from the other side of the table.
-
-It is not mainly a formatting guide. It is an attempt to understand how GitHub repositories are actually seen by:
+Most README “best practices” are not rules. They are signals reviewers use under time pressure. This repository is for developers who are looking for work and want to understand README best practices from the other side of the table. It is not mainly a formatting guide. It is an attempt to understand how GitHub repositories are actually seen by:
 
 - recruiters doing first-pass filtering,
 - hiring managers deciding whether to keep looking,
