@@ -12,12 +12,12 @@ This research document verifies the key claims from an earlier discussion about:
 Each claim is matched against source material and supported with evidence where possible. The result is a practical action plan rather than recycled portfolio advice.
 
 Primary public sources used throughout this report:
-[JSGuruJobs](https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j),
-[DEV portfolio guide](https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn),
-[HR Dive](https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/),
-[OneNine](https://onenine.com/best-practices-for-environment-specific-configurations/),
-[Reddit: learnprogramming](https://www.reddit.com/r/learnprogramming/comments/15l8gur),
-and [Reddit: ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs/comments/y89gtl).
+[JSGuruJobs][1],
+[DEV portfolio guide][2],
+[HR Dive][4],
+[OneNine][5],
+[Reddit: learnprogramming][3],
+and [Reddit: ExperiencedDevs][6].
 
 ---
 
@@ -28,9 +28,7 @@ and [Reddit: ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs/comments/
 **Verdict:** Partly true, but it requires context.
 
 The original source is the TheLadders eye-tracking experiment first reported in 2012. Recruiters did spend about 6 seconds on an initial résumé screen. A 2018 follow-up raised this to 7.4 seconds.
-
-Public summary link used here:
-[HR Dive on the later résumé-screening study](https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/).
+The public summary link used here is HR Dive’s coverage of the later résumé-screening study.[4]
 
 However, there are important caveats:
 
@@ -53,9 +51,7 @@ Critics note that the original TheLadders research did not clearly specify parti
 **Verdict:** True, supported by multiple sources.
 
 The original DEV Community article by JSGuruJobs describes a sequence like this:
-
-Source:
-[JSGuruJobs, “Optimizing Your GitHub Profile for Job Hunting: A Technical Guide”](https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j).
+The primary source here is JSGuruJobs’ GitHub hiring guide.[1]
 
 1. The first 5 seconds: is there a profile README? Are there pinned repositories? Does anything look interesting?
 2. The next 30 seconds: click the most interesting repo. Is there a README? Is there a live demo?
@@ -69,9 +65,7 @@ This is consistent with hiring-manager comments on Reddit. One manager wrote:
 Another wrote:
 
 > “If I am sifting applications for a role, I will spend at most five minutes per applicant, and that includes assessing their resume and any covering letter.”
-
-Discussion source:
-[Reddit, r/learnprogramming](https://www.reddit.com/r/learnprogramming/comments/15l8gur).
+These discussion examples come from hiring-manager comments in `r/learnprogramming`.[3]
 
 An Emory Career Center guide also states that recruiters often spend only a few minutes on a GitHub profile.
 
@@ -90,9 +84,7 @@ Important nuance:
 **Verdict:** True. Supported by both sources and common practice.
 
 The original JSGuruJobs article argues that the following are strong positive signals:
-
-Source:
-[JSGuruJobs, “Optimizing Your GitHub Profile for Job Hunting: A Technical Guide”](https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j).
+The primary source here is again JSGuruJobs.[1]
 
 | Signal | What it suggests | Status |
 |---|---|---|
@@ -108,9 +100,7 @@ Hiring-manager comments support this. One example:
 The `.env.example` practice is also supported by 12-Factor style configuration guidance:
 
 > “Use a .env.example file to document all required variables with sample values. This file should exclude any sensitive data and be tracked in version control for reference.”
-
-Configuration reference:
-[OneNine, “Best Practices for Environment-Specific Configurations”](https://onenine.com/best-practices-for-environment-specific-configurations/).
+This configuration guidance is consistent with OneNine’s practical summary of environment-specific configuration discipline.[5]
 
 The second JSGuruJobs article also adds commit quality as a signal:
 
@@ -140,9 +130,7 @@ The second JSGuruJobs article also adds commit quality as a signal:
 One DEV source says this directly:
 
 > “If your portfolio has a Netflix clone, a Spotify clone, or a Twitter clone, remove them. These projects tell hiring managers one thing: you can follow a tutorial.”
-
-Source:
-[DEV Community, “How to Build a Developer Portfolio That Actually Gets You Hired (2026)”](https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn).
+This framing comes from the DEV portfolio guide used throughout the report.[2]
 
 Hiring managers on LinkedIn and in group discussions make similar points: tutorial-shaped projects such as weather apps, todo lists, and simple clones are easy to recognize and often weak signals.
 
@@ -165,9 +153,7 @@ Senior developers on the freeCodeCamp forum also note that clones are not inhere
 One source states:
 
 > “Even 10 users means real feedback, real bugs, real iteration. This is closer to professional development than any tutorial.”
-
-Source:
-[DEV Community, “How to Build a Developer Portfolio That Actually Gets You Hired (2026)”](https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn).
+This argument also comes from the DEV portfolio guide.[2]
 
 Hiring managers on Reddit reinforce the same point. One described how live projects with real user interaction attracted attention even when the code was not analyzed in depth. Another explicitly said that if something is in real-life use by you or other people, it is a major advantage.
 
@@ -182,9 +168,7 @@ Hiring managers on Reddit reinforce the same point. One described how live proje
 One portfolio guide gives a concrete example:
 
 > Not just “here’s a todo app.” Instead: “I built this task manager because every existing one was too complicated for my freelance workflow. It handles project-based time tracking and invoice generation. 200 people use it monthly.”
-
-Source:
-[DEV Community, “How to Build a Developer Portfolio That Actually Gets You Hired (2026)”](https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn).
+This case-study framing is drawn from the same DEV portfolio guide.[2]
 
 The case study structure implied by the source is:
 
@@ -259,9 +243,7 @@ This is supported by:
 - a Hacker News interview anecdote in which blog posts demonstrated structured thinking and helped lead to an offer,
 - a hiring-manager comment saying a blog helps, especially when it aligns with the stack used in the job,
 - developer comments saying writing improved both communication and engineering thinking.
-
-Public discussion link used for the blog/hiring nuance:
-[Reddit, r/ExperiencedDevs](https://www.reddit.com/r/ExperiencedDevs/comments/y89gtl).
+The public discussion link used for the blog/hiring nuance is `r/ExperiencedDevs`.[6]
 
 But there are important warnings:
 
@@ -290,10 +272,7 @@ One source describes the loop like this:
 Another article summarizes the division of roles well:
 
 > “Your GitHub showcases what you can build; LinkedIn demonstrates who you are professionally.”
-
-Source chain for this section:
-[JSGuruJobs](https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j) and
-[DEV portfolio guide](https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn).
+This section relies mainly on JSGuruJobs and the DEV portfolio guide.[1][2]
 
 The practical strategy is:
 
@@ -308,10 +287,7 @@ The practical strategy is:
 
 ## Step-by-Step Guide
 
-This guide is derived from the verified patterns above, especially the material from
-[JSGuruJobs](https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j),
-the [DEV portfolio guide](https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn),
-and the supporting hiring discussions linked in the references.
+This guide is derived from the verified patterns above, especially the material from JSGuruJobs, the DEV portfolio guide, and the supporting hiring discussions linked in the references.[1][2][3][6]
 
 ### Phase 1: GitHub Profile (Days 1–3)
 
@@ -715,3 +691,10 @@ The following source names are retained in the report because they were part of 
 - Nearstream
 - Hacker News
 - blogs.iamdhakrey.dev
+
+[1]: https://dev.to/jsgurujobs/optimizing-your-github-profile-for-job-hunting-a-technical-guide-578j
+[2]: https://dev.to/__be2942592/how-to-build-a-developer-portfolio-that-actually-gets-you-hired-2026-6kn
+[3]: https://www.reddit.com/r/learnprogramming/comments/15l8gur
+[4]: https://www.hrdive.com/news/eye-tracking-study-shows-recruiters-look-at-resumes-for-7-seconds/541582/
+[5]: https://onenine.com/best-practices-for-environment-specific-configurations/
+[6]: https://www.reddit.com/r/ExperiencedDevs/comments/y89gtl
