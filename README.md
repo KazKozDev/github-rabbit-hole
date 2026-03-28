@@ -8,7 +8,9 @@
   Research, theory, and practical workflows for writing stronger GitHub READMEs.
 </p>
 
-Most README “best practices” are not rules. They are signals reviewers use under time pressure. This repository is for developers who are looking for work and want to understand README best practices from the other side of the table. It is not mainly a formatting guide. It is an attempt to understand how GitHub repositories are actually seen by:
+Most README “best practices” are not rules. They are signals reviewers use under time pressure.
+
+This repository is for developers who are looking for work and want to understand README best practices from the other side of the table. It is not mainly a formatting guide. It is an attempt to understand how GitHub repositories are seen by:
 
 - recruiters doing first-pass filtering,
 - hiring managers deciding whether to keep looking,
@@ -22,9 +24,6 @@ It is also an attempt to study attention itself under modern conditions:
 - and the constant pressure of fragmented attention.
 
 If you want to know why screenshots, tests, `.env.example`, live demos, commit quality, and project framing matter, this repo is meant to make those signals legible.
-
-Published article:
-[The Great README Hunt: What README “Best Practices” Actually Signal](https://medium.com/@kazkozdev/the-great-readme-hunt-what-readme-best-practices-actually-signal-d9df9782b512)
 
 ## Start Here
 
@@ -42,14 +41,6 @@ Published article:
     </td>
   </tr>
 </table>
-
-## Core Idea
-
-This repo is built around one simple idea:
-
-- a README is not decoration,
-- most “best practices” are not rules,
-- and the strongest improvements come from understanding what a reviewer is inferring from the page.
 
 ## Visual Frames
 
@@ -103,3 +94,7 @@ These two files are meant to be reused as skills for coding LLM agents, not just
     </td>
   </tr>
 </table>
+
+## Published Article
+
+[The Great README Hunt: What README “Best Practices” Actually Signal](https://medium.com/@kazkozdev/the-great-readme-hunt-what-readme-best-practices-actually-signal-d9df9782b512)
