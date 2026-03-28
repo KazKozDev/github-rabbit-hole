@@ -1,112 +1,108 @@
 # github-rabbit-hole
 
-An evidence-backed research repository on how GitHub profiles are evaluated in hiring, what separates real projects from tutorial-shaped work, how README structure affects first-pass screening, and how GitHub + Medium + LinkedIn reinforce each other.
+Research notes, practical guides, and portable agent skills for making GitHub projects look real, readable, and worth more attention.
 
-This repo contains an English GitHub-friendly version of a source-backed verification report and turns it into something easier to browse, cite, and reuse.
+This repository is organized as a small landing page around four entry points:
+
+1. the full research report,
+2. the demo-video guide,
+3. the README-writing agent skill,
+4. the video-production agent skill.
 
 ## Start here
 
-- [`docs/github-profile-hiring-guide.en.md`](./docs/github-profile-hiring-guide.en.md)  
-  Full report in English:
-  - claim verification,
-  - source-backed caveats,
-  - practical implementation steps,
-  - final checklists,
-  - section on what was inaccurate or overstated,
-  - inline direct quotations,
-  - references section linked to the source index.
+### 1. Research report
 
-- [`docs/readme-signals-short-guide.en.md`](./docs/readme-signals-short-guide.en.md)  
-  Short practical version:
-  - strongest README signals,
-  - weak signals,
-  - clone rule,
-  - practical minimum to fix first.
+[`docs/github-profile-hiring-guide.en.md`](./docs/github-profile-hiring-guide.en.md)
 
-- [`docs/source-index.en.md`](./docs/source-index.en.md)  
-  Explicit source index:
-  - public links used in the report,
-  - preserved source names from the original research,
-  - notes on quotation preservation.
+Use this if you want the full investigation:
+
+- claim verification,
+- direct quotations,
+- source-backed caveats,
+- practical implementation steps,
+- final checklists,
+- and a references section linked to the source index.
+
+### 2. Demo video guide
+
+[`docs/video-demo-guide.en.md`](./docs/video-demo-guide.en.md)
+
+Use this if you want the practical answer to:
+
+- what a project video should show,
+- what to show first,
+- how long it should be,
+- and how to record it without wasting attention.
+
+### 3. README writer agent skill
+
+[`docs/readme-writer-agent-skill.en.md`](./docs/readme-writer-agent-skill.en.md)
+
+Use this if you want an agent to:
+
+- inspect a repository,
+- extract only defensible facts,
+- and write a concise English README that behaves like a landing page, not a dump of documentation.
+
+### 4. Demo video producer agent skill
+
+[`docs/video-demo-agent-skill.en.md`](./docs/video-demo-agent-skill.en.md)
+
+Use this if you want an agent to:
+
+- choose the right project flow,
+- collect the right assets,
+- lead with the result,
+- and produce a short walkthrough that makes the project feel real.
 
 ## Why this repo exists
 
 There is a lot of GitHub portfolio advice online, but much of it is repeated as ritual:
 
-- “add a GIF,”
-- “show tests,”
-- “delete clones,”
-- “write a blog,”
-- “make your profile look professional.”
+- add a GIF,
+- show tests,
+- delete clones,
+- write a blog,
+- make your profile look professional.
 
-Some of that advice is useful. Some of it is overstated. Very little of it is traced carefully back to source material.
+Some of that advice is useful. Some of it is overstated. Very little of it is traced carefully back to source material and then turned into something practical.
 
-This repository exists to do exactly that:
+This repository exists to do that work once and keep the result reusable.
 
-- verify the common claims,
-- preserve the nuance,
-- and turn the results into something practical.
+## Core idea
 
-## Core conclusions
+Most GitHub “best practices” are not universal standards.
 
-The strongest conclusions from the report are:
+They are compressed signals under time pressure.
 
-1. A GitHub repository is usually not evaluated code-first. It is filtered through signals first.
-2. A README is not decoration. It is part of the screening surface.
-3. Tests, CI, `.env.example`, setup clarity, and meaningful commits matter because they compress information about how you work.
-4. Raw clones are weak signals when replication is the endpoint. Extended projects, real users, and clear trade-offs change that interpretation.
-5. Medium articles help most when they extend real project work, not when they replace it.
+That applies to:
 
-In short:
+- README structure,
+- screenshots and demo videos,
+- tests and CI,
+- clone projects,
+- Medium articles,
+- and the way GitHub, LinkedIn, and written case studies reinforce one another.
 
-> Most GitHub “best practices” are not universal standards. They are compressed signals under time pressure.
+## Also included
 
-## What you can use this for
+- [`docs/readme-signals-short-guide.en.md`](./docs/readme-signals-short-guide.en.md)  
+  Short practical README guide
 
-Use this repo if you want to:
+- [`docs/source-index.en.md`](./docs/source-index.en.md)  
+  Source index with public links and preserved source names
 
-- clean up your GitHub profile for hiring,
-- make your README more convincing,
-- distinguish real portfolio signals from cargo-cult formatting,
-- build a better project case study,
-- connect GitHub, Medium, and LinkedIn into one coherent hiring surface.
+## Suggested reading order
 
-## Source base
+If you want the full reasoning:
 
-The report draws on:
+1. [Research report](./docs/github-profile-hiring-guide.en.md)
+2. [Source index](./docs/source-index.en.md)
+3. [README signals short guide](./docs/readme-signals-short-guide.en.md)
 
-- DEV Community articles on GitHub hiring and portfolio design,
-- résumé-screening coverage such as HR Dive,
-- Reddit discussions from hiring managers and experienced developers,
-- configuration best-practice references such as OneNine,
-- and related material around demos, writing, and project presentation.
+If you only want practical execution:
 
-The full references are listed in the report itself:
-
-- [`docs/github-profile-hiring-guide.en.md#references`](./docs/github-profile-hiring-guide.en.md#references)
-- [`docs/source-index.en.md`](./docs/source-index.en.md)
-
-## Repo structure
-
-```text
-github-rabbit-hole/
-├── README.md
-└── docs/
-    ├── github-profile-hiring-guide.en.md
-    ├── readme-signals-short-guide.en.md
-    └── source-index.en.md
-```
-
-## Suggested reading path
-
-If you only want the practical part:
-
-1. Open the [claim verification section](./docs/github-profile-hiring-guide.en.md#claim-verification)
-2. Read the [step-by-step guide](./docs/github-profile-hiring-guide.en.md#step-by-step-guide)
-3. Use the [final checklist](./docs/github-profile-hiring-guide.en.md#final-checklist)
-
-If you want the nuance:
-
-1. Read the [claim verification section](./docs/github-profile-hiring-guide.en.md#claim-verification)
-2. Read [what was wrong or inaccurate](./docs/github-profile-hiring-guide.en.md#what-was-wrong-or-inaccurate)
-3. Then apply the practical checklist
+1. [README writer agent skill](./docs/readme-writer-agent-skill.en.md)
+2. [Demo video guide](./docs/video-demo-guide.en.md)
+3. [Demo video producer agent skill](./docs/video-demo-agent-skill.en.md)
