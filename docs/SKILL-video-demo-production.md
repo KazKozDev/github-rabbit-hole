@@ -147,6 +147,6 @@ If the repository has no clear visual result, say so and explain what additional
 
 ## Related Files
 
-- [Research-aligned video skill](./SKILL-video-demo-research-aligned.md)
+- [Canonical video skill notes](./skill-video-demo.en.md)
 - [Video guide](./video-guide.en.md)
 - [Research report](./research-report.en.md)
